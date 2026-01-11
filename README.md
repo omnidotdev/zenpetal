@@ -29,4 +29,4 @@ This generator is powered by [Turbo's `generate` subcommand](https://turbo.build
 
 ## License
 
-The code in this repository is licensed under MIT, &copy; Omni LLC. See <a href="LICENSE.md">LICENSE.md</a> for more information.
+The code in this repository is licensed under MIT, &copy; [Omni LLC](https://omni.dev). See [LICENSE.md](LICENSE.md) for more information.
