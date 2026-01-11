@@ -1,4 +1,3 @@
-import NextLink from "next/link";
 import { FiExternalLink } from "react-icons/fi";
 
 import { Link } from "components";
@@ -47,17 +46,6 @@ export const ExternalWithIcon: Story = {
       </>
     ),
   },
-};
-
-/**
- * `asChild` allows you to merge `Link` with child components, such as [Next.js `Link`](https://nextjs.org/docs/pages/api-reference/components/link).
- */
-export const AsChildElement: Story = {
-  render: () => (
-    <Link asChild>
-      <NextLink href="/">Next.js link</NextLink>
-    </Link>
-  ),
 };
 
 const sizes = Object.keys(text.variants!["size"]) as TextVariant["size"][];

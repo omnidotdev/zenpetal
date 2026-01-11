@@ -25,7 +25,6 @@ const bundle = async () => {
       "@ark-ui/react",
       "@pandacss/dev",
       "@pandacss/types",
-      "next",
       "react",
       "react-dom",
       "react-icons",
