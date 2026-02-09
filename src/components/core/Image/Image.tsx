@@ -11,7 +11,7 @@ type UnpicImageProps = ComponentProps<typeof UnpicImage>;
 export type ImageProps = UnpicImageProps & ImageVariantProps;
 
 /**
- * Responsive image with automatic srcset, lazy loading, and CDN optimization
+ * Responsive image with automatic srcset, lazy loading, and CDN optimization.
  */
 export const Image = ({ rounded, className, ...rest }: ImageProps) => (
   <UnpicImage className={cx(image({ rounded }), className)} {...rest} />
