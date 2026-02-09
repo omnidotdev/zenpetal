@@ -1,7 +1,7 @@
 import { defineConfig } from "@pandacss/dev";
 
 import { PREGENERATE_STATIC_CSS } from "lib/config";
-import { sigilPreset } from "lib/theme/presets";
+import { zenpetalPreset } from "lib/theme/presets";
 
 /**
  * 🐼 Panda configuration.
@@ -13,7 +13,7 @@ const pandaConfig = defineConfig({
   validation: "error",
   include: ["src/**/*.{ts,tsx,mdx}"],
   outdir: "src/generated/panda",
-  presets: ["@pandacss/preset-base", sigilPreset],
+  presets: ["@pandacss/preset-base", zenpetalPreset],
   jsxFramework: "react",
   studio: {
     logo: "/img/logo.png",

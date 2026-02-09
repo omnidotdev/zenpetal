@@ -1,7 +1,9 @@
 import { create as createStorybookTheme } from "@storybook/theming";
 
 import { app } from "../src/lib/config";
-import { fonts } from "../src/lib/theme/extensions/semanticTokens";
+import { semanticTokens } from "@omnidotdev/sigil-tokens";
+
+const { fonts } = semanticTokens;
 
 import type { ThemeVars } from "@storybook/theming";
 

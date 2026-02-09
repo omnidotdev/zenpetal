@@ -3,13 +3,16 @@ import {
   defineSemanticTokens,
   defineTokens,
 } from "@pandacss/dev";
+import {
+  conditions,
+  extensions,
+  globalCss,
+  semanticTokens as _semanticTokens,
+  tokens as _tokens,
+} from "@omnidotdev/sigil-tokens";
 
-import { conditions, globalCss } from "lib/theme";
-import * as baseExtensions from "lib/theme/extensions";
 import * as recipes from "lib/theme/extensions/recipes";
-import * as _semanticTokens from "lib/theme/extensions/semanticTokens";
 import * as slotRecipes from "lib/theme/extensions/slotRecipes";
-import * as _tokens from "lib/theme/extensions/tokens";
 
 // TODO auto-spread tokens
 const tokens = defineTokens({
@@ -70,10 +73,10 @@ const semanticTokens = defineSemanticTokens({
 });
 
 /**
- * Sigil Panda CSS preset.
+ * Zenpetal Panda CSS preset.
  */
-const sigilPreset = definePreset({
-  name: "sigil",
+const zenpetalPreset = definePreset({
+  name: "zenpetal",
   // TODO extend full theme
   // eject,
   // patterns,
@@ -85,7 +88,7 @@ const sigilPreset = definePreset({
   theme: {
     // extend theme configuration
     extend: {
-      ...baseExtensions,
+      ...extensions,
       recipes,
       semanticTokens,
       slotRecipes,
@@ -94,4 +97,4 @@ const sigilPreset = definePreset({
   },
 });
 
-export default sigilPreset;
+export default zenpetalPreset;

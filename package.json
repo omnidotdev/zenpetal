@@ -1,6 +1,6 @@
 {
-  "name": "@omnidev/sigil",
-  "description": "Omni Sigil design system and library",
+  "name": "@omnidotdev/zenpetal",
+  "description": "Zenpetal UI component library built on Sigil design tokens",
   "author": {
     "name": "Omni LLC",
     "url": "https://omni.dev"
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/omnidotdev/sigil"
+    "url": "https://github.com/omnidotdev/zenpetal"
   },
   "exports": {
     ".": {
@@ -46,6 +46,7 @@
   },
   "peerDependencies": {
     "@ark-ui/react": ">=5.27.1",
+    "@omnidotdev/sigil-tokens": ">=0.1.0",
     "@pandacss/dev": ">=1.4.3",
     "@pandacss/types": ">=1.4.3",
     "@unpic/react": ">=1.0.0",
@@ -128,5 +129,8 @@
     "esbuild",
     "sharp",
     "unrs-resolver"
-  ]
+  ],
+  "dependencies": {
+    "@omnidotdev/sigil-tokens": "file:.knit/@omnidotdev/sigil-tokens"
+  }
 }

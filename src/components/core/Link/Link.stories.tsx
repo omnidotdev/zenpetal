@@ -4,7 +4,9 @@ import { Link } from "components";
 import { Flex } from "generated/panda/jsx";
 import { app } from "lib/config";
 import { text } from "lib/theme/extensions/recipes";
-import { fontWeights } from "lib/theme/extensions/tokens";
+import { tokens } from "@omnidotdev/sigil-tokens";
+
+const { fontWeights } = tokens;
 
 import type { Meta, StoryObj } from "@storybook/react";
 import type { TextVariant } from "generated/panda/recipes";
