@@ -1,10 +1,10 @@
+import { tokens } from "@omnidotdev/sigil-tokens";
 import { FiExternalLink } from "react-icons/fi";
 
 import { Link } from "components";
 import { Flex } from "generated/panda/jsx";
 import { app } from "lib/config";
 import { text } from "lib/theme/extensions/recipes";
-import { tokens } from "@omnidotdev/sigil-tokens";
 
 const { fontWeights } = tokens;
 

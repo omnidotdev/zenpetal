@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "@omnidotdev/sigil-tokens": {
-      "signature": "b628e263c988048a946ecddc0c1a3327",
+      "signature": "35cc99d7bf5d09f44569aedee539a5f3",
       "file": true
     }
   }

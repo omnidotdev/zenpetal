@@ -21,6 +21,10 @@
     ".": {
       "types": "./build/index.d.ts",
       "import": "./build/index.js"
+    },
+    "./panda": {
+      "types": "./build/panda/index.d.ts",
+      "import": "./build/panda/index.js"
     }
   },
   "scripts": {
@@ -31,5 +35,5 @@
     "@pandacss/dev": ">=1.4.3",
     "@pandacss/types": ">=1.4.3"
   },
-  "knitSig": "b628e263c988048a946ecddc0c1a3327"
+  "knitSig": "35cc99d7bf5d09f44569aedee539a5f3"
 }

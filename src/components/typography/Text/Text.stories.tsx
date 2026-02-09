@@ -7,7 +7,7 @@ import type { TextProps } from "components";
 import type { TextVariant } from "generated/panda/recipes";
 import type { FontToken } from "generated/panda/tokens";
 
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj;
 
 interface TypesetProps {
   /** Name of font to showcase. */

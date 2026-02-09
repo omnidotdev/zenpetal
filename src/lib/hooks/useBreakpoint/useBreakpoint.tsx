@@ -1,7 +1,9 @@
+import { extensions } from "@omnidotdev/sigil-tokens";
 import { useEffect, useMemo, useState } from "react";
 
-import { breakpoints } from "lib/theme/extensions";
 import { emToPx } from "lib/util";
+
+const { breakpoints } = extensions;
 
 import type { BreakpointToken } from "generated/panda/tokens";
 
