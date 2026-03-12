@@ -6,7 +6,7 @@
     "url": "https://omni.dev"
   },
   "version": "0.16.0",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "type": "module",
   "module": "build/index.js",
   "types": "build/index.d.ts",
