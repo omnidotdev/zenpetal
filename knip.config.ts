@@ -8,14 +8,17 @@ import type { KnipConfig } from "knip";
  */
 const knipConfig: KnipConfig = {
   ignoreDependencies: [
-    // used for local packaging
-    "@omnidev/knit",
     // used in MDX
     "@storybook/addon-docs",
     // used in MDX
     "@storybook/blocks",
-    // used in Storybook test CI
-    "http-server",
+    // used via the `panda studio` / `turbo gen` scripts (knip can't map the
+    // binary name back to the package)
+    "@pandacss/studio",
+    "@turbo/gen",
+    // used via the eslint config, which knip does not scan
+    "eslint-config-prettier",
+    "eslint-plugin-storybook",
   ],
   ignore: [
     "panda.config.ts",
@@ -27,6 +30,8 @@ const knipConfig: KnipConfig = {
     // theme extensions are used in barrels
     "src/lib/theme/extensions/**",
     "src/lib/config/env.config.ts",
+    // turbo generator config, consumed by `turbo gen` (not imported)
+    "turbo/**",
   ],
 };
 

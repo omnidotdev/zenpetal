@@ -8,6 +8,10 @@ const app = {
     name: "Omni",
     url: "https://omni.dev",
     x: { handle: "@omnidotdev", url: "https://x.com/omnidotdev" },
+    threads: {
+      handle: "@omnidotdev",
+      url: "https://www.threads.com/@omnidotdev",
+    },
   },
 };
 
