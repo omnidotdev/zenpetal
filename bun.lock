@@ -5,7 +5,7 @@
     "": {
       "name": "@omnidev/sigil",
       "dependencies": {
-        "@omnidotdev/sigil-tokens": "github:omnidotdev/sigil-tokens#58c72dcca561661c1ec4ee4f3eba53a0819ce2a2",
+        "@omnidotdev/sigil-tokens": "github:omnidotdev/sigil-tokens#f56a826c2f31c611586bf28909c4a3f2a8d152ec",
       },
       "devDependencies": {
         "@ark-ui/anatomy": "^3.5.0",
@@ -567,7 +567,7 @@
 
     "@omnidev/knit": ["@omnidev/knit@0.1.2", "", { "dependencies": { "@npmcli/arborist": "^6.3.0", "chalk": "4.1.0", "detect-indent": "6.1.0", "fs-extra": "^11.1.1", "glob": "^10.3.3", "ignore": "^5.2.4", "ini": "^4.1.1", "npm-packlist": "^7.0.4", "yargs": "^17.7.2" }, "bin": { "knit": "build/knit.js" } }, "sha512-JEaw7yL/O3lS1QS2460jXXf4SSmIKVWr9Tw5/hfZZif6KnDnrwBj3sF3QQvE7Sa+Q4Iu25/rq61LEpfcWnq4EQ=="],
 
-    "@omnidotdev/sigil-tokens": ["@omnidotdev/sigil-tokens@github:omnidotdev/sigil-tokens#58c72dc", { "peerDependencies": { "@pandacss/dev": ">=1.4.3", "@pandacss/types": ">=1.4.3" } }, "omnidotdev-sigil-tokens-58c72dc", "sha512-MDBlWmKG3M9a+dAc9ZlpMDGRWvUYQM5otnonLOw3Bgoi8pgVEWHmturNDZ6ConHlo2mKNxrcUVNino79jZiG6A=="],
+    "@omnidotdev/sigil-tokens": ["@omnidotdev/sigil-tokens@github:omnidotdev/sigil-tokens#f56a826", { "dependencies": { "radash": "^12.1.1" }, "peerDependencies": { "@pandacss/dev": ">=1.4.3", "@pandacss/types": ">=1.4.3" } }, "omnidotdev-sigil-tokens-f56a826", "sha512-5XX+FaSxIOPcUnPJYPBSNyHWyeFaevaY3aXzeCl/CsyqzT1w3atiARDgk/v+bRnbQVJh7x2wcydOwRDrlId+0g=="],
 
     "@oslojs/encoding": ["@oslojs/encoding@1.1.0", "", {}, "sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ=="],
 
@@ -2730,6 +2730,8 @@
     "queue-microtask": ["queue-microtask@1.2.3", "", {}, "sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A=="],
 
     "quick-lru": ["quick-lru@7.0.0", "", {}, "sha512-MX8gB7cVYTrYcFfAnfLlhRd0+Toyl8yX8uBx1MrX7K0jegiz9TumwOK27ldXrgDlHRdVi+MqU9Ssw6dr4BNreg=="],
+
+    "radash": ["radash@12.1.1", "", {}, "sha512-h36JMxKRqrAxVD8201FrCpyeNuUY9Y5zZwujr20fFO77tpUtGa6EZzfKw/3WaiBX95fq7+MpsuMLNdSnORAwSA=="],
 
     "radix3": ["radix3@1.1.2", "", {}, "sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA=="],
 
