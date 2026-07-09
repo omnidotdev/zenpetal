@@ -1,12 +1,12 @@
 {
-  "name": "@omnidev/sigil",
-  "description": "Omni Sigil design system and library",
+  "name": "@omnidotdev/zenpetal",
+  "description": "Zenpetal UI component library built on Sigil design tokens",
   "author": {
     "name": "Omni LLC",
     "url": "https://omni.dev"
   },
   "version": "0.16.0",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "type": "module",
   "module": "build/index.js",
   "types": "build/index.d.ts",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/omnidotdev/sigil"
+    "url": "https://github.com/omnidotdev/zenpetal"
   },
   "exports": {
     ".": {
@@ -109,7 +109,6 @@
     "lint-staged": "^16.2.6",
     "pkg-pr-new": "^0.0.60",
     "prettier": "^3.6.2",
-    "radash": "^12.1.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
@@ -120,7 +119,8 @@
     "turbo": "^2.6.1",
     "typescript": "^5.9.3",
     "vite": "^6.3.2",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "wait-on": "^8.0.1"
   },
   "trustedDependencies": [
     "@swc/core",
@@ -128,5 +128,8 @@
     "esbuild",
     "sharp",
     "unrs-resolver"
-  ]
+  ],
+  "dependencies": {
+    "@omnidotdev/sigil-tokens": "github:omnidotdev/sigil-tokens#f56a826c2f31c611586bf28909c4a3f2a8d152ec"
+  }
 }

@@ -14,4 +14,4 @@ export type { JsxStyleProps } from "generated/panda/types";
 export { styled as sigil } from "generated/panda/jsx";
 
 // export Panda presets (to be used in downstream Panda configurations)
-export { sigilPreset } from "lib/theme/presets";
+export { zenpetalPreset } from "lib/theme/presets";

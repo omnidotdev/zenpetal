@@ -1,7 +1,10 @@
+import { extensions } from "@omnidotdev/sigil-tokens";
+
 import useBreakpoint from "../useBreakpoint/useBreakpoint";
-import { breakpoints as defaultBreakpoints } from "lib/theme/extensions";
 
 import type { BreakpointToken } from "generated/panda/tokens";
+
+const { breakpoints: defaultBreakpoints } = extensions;
 
 /**
  * Get the closest value to the current breakpoint. This logic is taken from Chakra UI's `getClosestValue` function.

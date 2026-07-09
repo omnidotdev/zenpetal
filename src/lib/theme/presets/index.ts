@@ -1,1 +1,1 @@
-export { default as sigilPreset } from "./sigil.preset";
+export { default as zenpetalPreset } from "./zenpetal.preset";

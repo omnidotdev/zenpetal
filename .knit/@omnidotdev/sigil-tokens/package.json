@@ -1,0 +1,39 @@
+{
+  "name": "@omnidotdev/sigil-tokens",
+  "description": "Omni Sigil design tokens",
+  "author": {
+    "name": "Omni LLC",
+    "url": "https://omni.dev"
+  },
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "type": "module",
+  "module": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omnidotdev/sigil-tokens"
+  },
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "import": "./build/index.js"
+    },
+    "./panda": {
+      "types": "./build/panda/index.d.ts",
+      "import": "./build/panda/index.js"
+    }
+  },
+  "scripts": {
+    "build": "bun src/scripts/build.ts",
+    "lint": "bunx tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@pandacss/dev": ">=1.4.3",
+    "@pandacss/types": ">=1.4.3"
+  },
+  "knitSig": "35cc99d7bf5d09f44569aedee539a5f3"
+}
