@@ -130,6 +130,6 @@
     "unrs-resolver"
   ],
   "dependencies": {
-    "@omnidotdev/sigil-tokens": "github:omnidotdev/sigil-tokens#f56a826c2f31c611586bf28909c4a3f2a8d152ec"
+    "@omnidotdev/sigil-tokens": "^0.1.0"
   }
 }
