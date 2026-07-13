@@ -5,7 +5,7 @@
     "": {
       "name": "@omnidev/sigil",
       "dependencies": {
-        "@omnidotdev/sigil-tokens": "github:omnidotdev/sigil-tokens#f56a826c2f31c611586bf28909c4a3f2a8d152ec",
+        "@omnidotdev/sigil-tokens": "^0.1.0",
       },
       "devDependencies": {
         "@ark-ui/anatomy": "^3.5.0",
@@ -567,7 +567,7 @@
 
     "@omnidev/knit": ["@omnidev/knit@0.1.2", "", { "dependencies": { "@npmcli/arborist": "^6.3.0", "chalk": "4.1.0", "detect-indent": "6.1.0", "fs-extra": "^11.1.1", "glob": "^10.3.3", "ignore": "^5.2.4", "ini": "^4.1.1", "npm-packlist": "^7.0.4", "yargs": "^17.7.2" }, "bin": { "knit": "build/knit.js" } }, "sha512-JEaw7yL/O3lS1QS2460jXXf4SSmIKVWr9Tw5/hfZZif6KnDnrwBj3sF3QQvE7Sa+Q4Iu25/rq61LEpfcWnq4EQ=="],
 
-    "@omnidotdev/sigil-tokens": ["@omnidotdev/sigil-tokens@github:omnidotdev/sigil-tokens#f56a826", { "dependencies": { "radash": "^12.1.1" }, "peerDependencies": { "@pandacss/dev": ">=1.4.3", "@pandacss/types": ">=1.4.3" } }, "omnidotdev-sigil-tokens-f56a826", "sha512-5XX+FaSxIOPcUnPJYPBSNyHWyeFaevaY3aXzeCl/CsyqzT1w3atiARDgk/v+bRnbQVJh7x2wcydOwRDrlId+0g=="],
+    "@omnidotdev/sigil-tokens": ["@omnidotdev/sigil-tokens@0.1.0", "", { "dependencies": { "radash": "^12.1.1" }, "peerDependencies": { "@pandacss/dev": ">=1.4.3", "@pandacss/types": ">=1.4.3" } }, "sha512-vWK2jYxsH0Bt/dpxpyCxhglA7Al0nsUHe+dah1fRfLHn/TAo2ekMqEONL2Jt+ds0ptsQF1SOpK0Mkcg3epph+w=="],
 
     "@oslojs/encoding": ["@oslojs/encoding@1.1.0", "", {}, "sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ=="],
 
